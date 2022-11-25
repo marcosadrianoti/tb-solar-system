@@ -1,12 +1,11 @@
 import React from 'react';
+import Title from './Title';
 
 class Missions extends React.Component {
   render() {
     return (
       <div data-testid="missions">
-        <h1>
-          Sistema Solar
-        </h1>
+        <Title headline="Missões" />
       </div>
     );
   }
