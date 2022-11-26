@@ -1,0 +1,56 @@
+.Mercúrio {
+  width: 41px;
+  height: 31px;
+}
+
+.Vênus {
+  width: 102px;
+  height: 76px;
+}
+
+.Terra {
+  width: 106px;
+  height: 79px;
+}
+
+.Marte {
+  width: 66px;
+  height: 50px;
+}
+
+.Júpiter {
+  width: 272px;
+  height: 204px;
+}
+
+.Saturno {
+  width: 282.41px;
+  height: 210.9px;
+  transform: rotate(-16.53deg);
+}
+
+.Urano {
+  width: 144px;
+  height: 109px;
+}
+
+.Netuno {
+  width: 144px;
+  height: 107px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.planet-card {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  height: 250px;
+}
+
+.image-planet-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
