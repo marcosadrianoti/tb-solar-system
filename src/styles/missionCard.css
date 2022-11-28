@@ -1,18 +1,18 @@
 .mission-card {
+  background: rgba(13, 14, 20, 0.5);
+  border: 1px solid white;
+  border-radius: 17px;
   display: flex;
   flex-direction: column;
-  margin: 20px 20px;
-  font-weight: bold;
-  background: rgba(13, 14, 20, 0.5);
+  font-weight: 700;
+  margin: 20px;
   mix-blend-mode: hard-light;
-  border: 1px solid #FFFFFF;
-  border-radius: 17px;
   width: 400px;
 }
 
 .mission-datas {
+  border-top: 1px solid white;
   display: flex;
+  font-weight: 200;
   justify-content: space-evenly;
-  border-top: 1px solid #FFFFFF;
-  font-weight:lighter;
 }
