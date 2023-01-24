@@ -54,3 +54,47 @@
   display: flex;
   height: 100%;
 }
+
+@media (prefers-reduced-motion: no-preference) {
+  .orb-mercurio {
+    transform-origin: -800% 0%;
+    animation: orbit infinite 2.41s linear;
+  }
+  .orb-venus {
+    transform-origin: -400% 0%;
+    animation: orbit infinite 6.14s linear;
+  }
+  .orb-terra {
+    transform-origin: -450% 0%;
+    animation: orbit infinite 10s linear;
+  }
+  .orb-marte {
+    transform-origin: -830% 0%;
+    animation: orbit infinite 18.81s linear;
+  }
+  .orb-jupiter {
+    transform-origin: -250% 0%;
+    animation: orbit infinite 118s linear;
+  }
+  .orb-saturno {
+    transform-origin: -330% 0%;
+    animation: orbit infinite 295s linear;
+  }
+  .orb-urano {
+    transform-origin: -800% 0%;
+    animation: orbit infinite 840s linear;
+  }
+  .orb-netuno {
+    transform-origin: -890% 0%;
+    animation: orbit infinite 1648s linear;
+  }
+}
+
+@keyframes orbit {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
