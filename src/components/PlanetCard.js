@@ -9,13 +9,18 @@ class PlanetCard extends React.Component {
       <div className="planet-card" data-testid="planet-card">
         <p data-testid="planet-name">{ planetName }</p>
         <div className="image-planet-container">
-          <input
-            type="image"
-            className={ `${clasName}` }
-            src={ planetImage }
-            alt={ `Planeta ${planetName}` }
+
+          <button
+            type="button"
             onClick={ orbting }
-          />
+          >
+            <img
+              id="planetImage"
+              className={ `${clasName}` }
+              src={ planetImage }
+              alt={ `Planeta ${planetName}` }
+            />
+          </button>
         </div>
       </div>
     );

@@ -7,7 +7,7 @@ class SunCard extends React.Component {
   render() {
     const { orbiting } = this.props;
     return (
-      <div className="planet-card" data-testid="planet-card">
+      <div className="sun-card" data-testid="sun-card">
         <p className="sun">Sol</p>
         <div className="image-sun-container">
           <input
