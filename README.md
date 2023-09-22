@@ -37,7 +37,7 @@ Projeto desenvolvido por mim durante o curso de Desenvolvimento Web na Trybe. Di
 Para rodar o projeto em sua máquina, abra seu terminal, crie um diretório no local de sua preferência com o comando `mkdir` e acesse o diretório criado com o comando `cd`:
 
 ```bash
-mkdir meu-diretorio
+mkdir meu-diretorio &&
 cd meu-diretorio
 ```
 
