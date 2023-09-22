@@ -27,6 +27,53 @@ Projeto desenvolvido por mim durante o curso de Desenvolvimento Web na Trybe. Di
     
       * Fazer uso de `PropTypes` para validar as `props de um componente`.
 
+- <summary><strong>👨‍💻 Objetivos do projeto:</strong></summary>
+
+    - Crie um componente chamado `Header`
+    2. Crie um componente chamado `SolarSystem`
+    3. Crie um componente chamado `Title`
+    4. Renderize o componente `Title` dentro do componente `SolarSystem`
+    5. Crie um componente chamado `PlanetCard`
+    6. Renderize uma lista com os planetas do Sistema Solar
+    7. Crie um componente chamado `Missions`.
+    8. Renderize o componente `Title` dentro do componente `Missions`.
+    9. Crie um componente chamado `MissionCard`.
+    10. Renderize uma lista com as missões espaciais
+    
+## Rodando o projeto localmente
+
+Para rodar o projeto em sua máquina, abra seu terminal, crie um diretório no local de sua preferência com o comando `mkdir` e acesse o diretório criado com o comando `cd`:
+
+```bash
+mkdir meu-diretorio
+cd meu-diretorio
+```
+
+Clone o projeto com o comando `git clone`:
+
+```bash
+git clone git@github.com:marcosadrianoti/tb-solar-system.git
+```
+
+Acesse o diretório do projeto com o comando `cd`:
+
+```bash
+cd tb-solar-system
+```
+
+Instale as dependencias do projeto com o comando `npm install`:
+
+```bash
+npm install
+```
+
+Execute o projeto com os comandos `npm start`:
+
+```bash
+npm start
+```
+
+---
 <!-- Olá, Tryber!
 Esse é apenas um arquivo inicial para o README do seu projeto.
 É essencial que você preencha esse documento por conta própria, ok?
