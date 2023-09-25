@@ -5,31 +5,31 @@ Projeto desenvolvido por mim durante o curso de Desenvolvimento Web na Trybe. Di
 <summary><strong> Objetivos do projeto:</strong></summary>
 
   * Desenvolver um modelo do sistema solar! Ao utilizar essa aplicação, uma pessoa usuária deverá ser capaz de:
-      * Visualizar todos os planetas do sistema solar renderizados na tela
-      * Visualizar todas as cartas com informações sobre missões espaciais;
+      * Visualizar todos os planetas do sistema solar renderizados na tela.
+      * Visualizar todas as cartas com informações sobre missões espaciais.
   * Verificar se eu era capaz de:
-      * Utilizar JSX no React;
-      * Renderize uma lista com os planetas do Sistema Solar
-      * Utilizar corretamente o método `render()` para renderizar seus componentes;
-      * Utilizar `import` para trazer componentes em diferentes arquivos;
-      * Criar componentes de classe em React;
-      * Criar múltiplos componentes a partir de um array;
-      * Fazer uso de `props` corretamente;
+      * Utilizar JSX no React.
+      * Renderizar uma lista com os planetas do Sistema Solar.
+      * Utilizar corretamente o método `render()` para renderizar seus componentes.
+      * Utilizar `import` para trazer componentes em diferentes arquivos.
+      * Criar componentes de classe em React.
+      * Criar múltiplos componentes a partir de um array.
+      * Fazer uso de `props` corretamente.
       * Fazer uso de `PropTypes` para validar as `props de um componente`.
 </details>
 <details>
 <summary><strong> Requisitos do projeto:</strong></summary>
 
-  * Criar um componente chamado `Header`
-  * Criar um componente chamado `SolarSystem`
-  * Criar um componente chamado `Title`
-  * Renderizar o componente `Title` dentro do componente `SolarSystem`
-  * Criar um componente chamado `PlanetCard`
-  * Renderizar uma lista com os planetas do Sistema Solar
+  * Criar um componente chamado `Header`.
+  * Criar um componente chamado `SolarSystem`.
+  * Criar um componente chamado `Title`.
+  * Renderizar o componente `Title` dentro do componente `SolarSystem`.
+  * Criar um componente chamado `PlanetCard`.
+  * Renderizar uma lista com os planetas do Sistema Solar.
   * Criar um componente chamado `Missions`.
   * Renderizar o componente `Title` dentro do componente `Missions`.
   * Criar um componente chamado `MissionCard`.
-  * Renderizar uma lista com as missões espaciais
+  * Renderizar uma lista com as missões espaciais.
 </details>
   
 ## Rodando o projeto localmente
