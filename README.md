@@ -62,5 +62,5 @@ npm install
 Execute o projeto com os comandos `npm start`:
 
 ```bash
-npm start
+npm run start
 ```
